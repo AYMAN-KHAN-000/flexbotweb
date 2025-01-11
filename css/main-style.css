@@ -1,0 +1,171 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+}
+
+
+.header {
+    height: 500px;
+    background-color: #ce2900;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    font-weight: 600;
+}
+
+.h1{
+    margin-top: 1em;
+    font-size: 6em;
+    align-items: center;
+    justify-content: center;
+}
+
+
+nav button {
+    border: none;
+    width: 15em;
+    color: #ce2900;
+    font-weight: 800;
+    font-size: larger;
+    padding: 1em 3em;
+    margin: 0;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+nav button:hover {
+ 
+    border-bottom: 4px solid #ce2900;
+   
+}
+nav {
+    text-align: center;
+    margin: 0;
+    background-color: #ffffff49;
+    padding: 5px;
+    margin-bottom: 7px;
+    
+}
+.content {
+    padding: 1em;
+}
+.bot-section {
+    gap: 30px;
+    display: flex;
+    background-color: #ffffff;
+    margin: 1em 0;
+    padding: 1em;
+    border-radius: 5px;
+   
+    box-shadow: 0 0 10px darkorange, 0 0 20px darkorange, 0 0 30px #ce2900, 0 0 40px;
+    animation: glow 2s infinite;
+}
+
+@keyframes glow { 0% { box-shadow: 0 0 10px yellow, 0 0 20px yellow, 0 0 30px yellow, 0 0 40px yellow; } 33% { box-shadow: 0 0 10px red, 0 0 20px red, 0 0 30px red, 0 0 40px red; } 66% { box-shadow: 0 0 10px darkorange, 0 0 20px darkorange, 0 0 30px darkorange, 0 0 40px darkorange; } 100% { box-shadow: 0 0 10px yellow, 0 0 20px yellow, 0 0 30px yellow, 0 0 40px yellow; } }
+
+
+.bot-section1 {
+    gap: 30px;
+   
+    background-color: #ffffff;
+    margin: 1em 0;
+    padding: 1em;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.b:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+
+}
+
+
+.bot {
+    width: 100%;
+    margin: 1em 0;
+    display: flex;
+    border: 2px solid;
+    
+}
+.footer {
+    border-radius: 20px;
+    background-color: #202020;
+    color: white;
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
+
+.home{
+    color: #ffffff;
+    background: linear-gradient(to bottom, transparent, #ce2900);
+}
+.abbot  {color: #ffffff;
+background: linear-gradient(to bottom, transparent, #ce2900);}
+
+.adbt{  color: #ffffff;
+    background: linear-gradient(to bottom, white, #ce2900);}
+
+
+    @media screen and (max-width: 780px){
+        .header{
+            top: 220px;
+            height: 250px;
+            
+        }
+    
+        
+    .h1{
+        margin-top: 1em;
+        font-size: 4em;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    }
+    @media screen and (max-width: 550px){
+    
+        
+        .h1{
+            margin-top: 1em;
+            font-size: 2.5em;
+            align-items: center;
+            justify-content: center;
+        }
+        nav button {
+            padding: 20px 30px;
+            padding-right: 70px;
+            padding-left: 10px;
+            font-size: smaller;
+            width: 2em;
+        }   
+        nav{
+            text-align: left;
+        }
+    }
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 6px; /* Width of the vertical scrollbar */
+    height: 2px; /* Height of the horizontal scrollbar */
+}
+
+::-webkit-scrollbar-track {
+    background: transparent; /* Background of the scrollbar track */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(211, 56, 0); /* Color of the scrollbar thumb */
+    border-radius: 10px; /* Roundness of the scrollbar thumb */
+    border: 0px solid transparent; /* Border around the scrollbar thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: rgb(211, 56, 0); /* Color of the scrollbar thumb on hover */
+}
+
+/* For Firefox */
